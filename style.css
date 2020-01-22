@@ -1,0 +1,159 @@
+/*==================Default values===========================
+  font-family : Roboto Condensed 
+
+  Code couleurs : 
+  #34C6D3 : boutons , icons ,links,lines & background
+  #41464B : Heading <h1> jusqu'a <h6>
+  #64707B : paragraphes
+  #FFF : texte avec un background noir 
+  #000 : il est toujours présent 
+===============================================================*/
+html, body { height: 100%; }
+#home { heigth: 100vh; }
+
+
+section{
+  background-image: url(../img/33.jpg);
+  height:600px;
+  position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: linear;
+}
+body{
+  font-family: "Roboto" Condensed ;
+  margin: 0;
+  padding: 0;
+}
+
+.animated{
+  animation-duration: 3s;
+  animation-delay: 2s;
+  
+}
+
+#content{
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+font-size: 40px;
+font-weight:700;
+text-transform: uppercase;
+position: fixed;
+top: 25%;
+text-align: center;
+
+}
+
+p{
+position: fixed;
+left: 29%;
+color: #64707B;
+}
+
+#btn{
+  background:none;
+  padding: 15px 15px;
+  font-size: 30px;
+  font-family: "montserrat";
+  cursor: pointer;
+  border-color: blue;
+  color: #34C6D3;
+  
+  
+
+}
+
+.btn1{
+  background:none;
+  background-color: black;
+  opacity: 0.5;
+  position: center;
+  margin: 300px;
+  position: fixed;
+  left: 25%;
+  padding: 10px;
+  color: white;
+  box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.451), 3px 3px 5px rgba(94, 104, 121, .288);
+  padding: 10px;
+  
+}
+
+.btn1:hover {
+  background-color: #34C6D3;
+}
+
+.topnav:hover{
+  text-align: right;
+}
+
+.nav1:hover{
+  background-color: #34C6D3;
+}
+
+.nav2:hover{
+  background-color: #34C6D3;
+
+}
+
+.nav3:hover{
+  background-color: #34C6D3;
+
+}
+
+.nav4:hover{
+  background-color: #34C6D3;
+}
+
+.nav5:hover{
+  background-color: #34C6D3;
+}
+
+.nav6:hover{
+  background-color: #34C6D3;
+}
+
+.nav7:hover{
+  background-color: #34C6D3;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px; 
+}
+
+
+
+  .topnav{
+    animation-delay: 1s;
+    animation-duration: 1s;
+  }
+
+  .btn1{
+    animation-delay: 1s;
+    animation-duration: 1s;
+  }
+
+  header img{
+    width:100px;
+    top: 90%;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
